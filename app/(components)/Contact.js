@@ -8,7 +8,7 @@ export default function Contact() {
     <div>
       <div className="flex justify-start gap-4 items-center">
         <div className="w-12 h-1 bg-indigo-500"></div>
-        <h2 className="text-2xl font-bold text-black">Contact Us</h2>
+        <h2 className="heading-secondary">Contact Us</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-2 gap-4">
         <div className="grid grid-cols-1 gap-4 my-4">
@@ -25,7 +25,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center gap-4">
             <figure className="p-1 bg-indigo-50 rounded-full w-[40px] h-[40px] flex justify-center items-center">
-              <span className="text-md text-indigo-400">
+              <span className="text-md bg-primary">
                 <MdEmail />
               </span>
             </figure>

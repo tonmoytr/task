@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="">
       <div className="flex justify-start gap-4 items-center">
-        <div className="w-12 h-1 bg-indigo-500"></div>
-        <h2 className="text-2xl font-bold text-black">About Us</h2>
+        <div className="w-12 h-1 bg-primary"></div>
+        <h2 className="heading-secondary">About Us</h2>
       </div>
       <div className="grid md:grid-cols-2 gap-4 mt-4">
         <div>

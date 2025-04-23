@@ -1,27 +1,18 @@
 @import "tailwindcss";
 
-* :root {
-  --deep-purple: #192042;
-  --mint-purple: #474caf;
-  --purple: #726ace;
-  --secondary : #979899
-}
-
-@theme inline {
-  --color-deep: var(--deep-purple);
-  --color-mint: var(--mint-purple);
-  --color-purple: var(--purple);
-  --color-secondary : var(--secondary)
+:root {
+  --color-primary: #6366f1;
 }
 
 @layer utilities {
-  .head-bg {
-    background: linear-gradient(
-      to right,
-      var(--deep-purple),
-      var(--mint-purple),
-      var(--purple)
-    );
+  .heading-secondary {
+    @apply text-2xl font-bold text-black;
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
   }
 }
 
